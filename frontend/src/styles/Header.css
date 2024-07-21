@@ -1,0 +1,58 @@
+/* Define the base styles for the smallScreenHeaderIconContainer */
+.smallScreenHeaderIconContainer {
+  width: 2.25rem; /* Adjust based on your design */
+  background-color: black;
+  color: white;
+  position: absolute;
+  right: 0;
+  top: 16rem; /* Adjust based on your design */
+  transition: transform 300ms ease-in-out; /* Smooth animation */
+  transform: translateX(100%); /* Initially off-screen */
+  border: 1px solid rgb(151, 244, 20);
+  border-radius: 50px;
+}
+
+/* Apply the animation when the container is open */
+.smallScreenHeaderIconContainer.open {
+  transform: translateX(0); /* Slide into view */
+}
+
+/* Animation for the right/left icons */
+@keyframes toAndFro {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(15px);
+  }
+}
+
+.animate-to-and-fro {
+  animation: toAndFro 1s ease-in-out infinite;
+}
+
+@keyframes toAndFroFast {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(15px);
+  }
+}
+
+.group:hover .animate-to-and-fro-fast {
+  animation: toAndFroFast 1.3s ease-in-out infinite;
+}
+
+/* Hide the NavigationBarIconContainner on small screens */
+@media (max-width: 1050px) {
+  .NavigationBarIconContainner {
+    display: none;
+  }
+}
+
+.NavigationBarIconContainner {
+  display: none;
+}
