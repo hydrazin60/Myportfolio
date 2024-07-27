@@ -48,7 +48,9 @@ export default function Home() {
             </div>
           </div>
           <div>
-          
+          <div className="h-[400px] w-[400px] bg-[#009900] profilepictureshawow rounded-full ">
+              
+              </div>
           </div>
         </div>
       </section>
