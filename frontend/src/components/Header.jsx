@@ -8,6 +8,7 @@ import {
   FaAngleDoubleLeft,
   FaAngleDoubleRight,
 } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { ImCross } from "react-icons/im";
 import "../styles/Header.css";
@@ -21,7 +22,7 @@ export default function Header() {
     <nav className="fixed w-full top-0 z-50 bg-black sm-custom:bg-zinc-900">
       <div className="headercontainer h-20 shadow-sm">
         <div className="p-2 flex text-white justify-between">
-          <div className="ml-4">
+          <div className="ml-12">
             <img
               src="logo.png"
               alt="logo"
@@ -52,28 +53,28 @@ export default function Header() {
           <div className="NavigationBarIconContainner hidden lg:flex justify-between items-center mb-2">
             <ul className="headericonsUL flex text-center gap-7 text-xl">
               <li className="relative group">
-                <span className="block relative transition-transform transform group-hover:scale-150">
+                <span className="block relative transition-transform transform group-hover:scale-150 hover:bg-LinkdenColor">
                   <FaLinkedin />
                 </span>
               </li>
               <li className="relative group">
-                <span className="block relative transition-transform transform group-hover:scale-150 group-hover:text-green-500">
+                <span className="block relative transition-transform transform group-hover:scale-150   hover:bg-GitHubColor">
                   <FaGithubSquare />
                 </span>
               </li>
               <li className="relative group">
-                <span className="block relative transition-transform transform group-hover:scale-150 group-hover:text-green-500">
+                <span className="block relative transition-transform transform group-hover:scale-150  hover:bg-FacebookColor">
                   <FaFacebookF />
                 </span>
               </li>
               <li className="relative group">
-                <span className="block relative transition-transform transform group-hover:scale-150 group-hover:text-green-500">
-                  <FaTwitter />
+                <span className="block relative transition-transform transform group-hover:scale-150   hover:bg-TwiterColor">
+                  <FaXTwitter />
                 </span>
               </li>
               <li className="relative group">
-                <span className="block relative transition-transform transform group-hover:scale-150 group-hover:text-green-500">
-                  <FaInstagramSquare />
+                <span className="block relative transition-transform transform group-hover:scale-150  group-hover:text-white  ">
+                  <FaInstagramSquare className="hover:bg-[linear-gradient(to_right,_#0000ff,_#ff0000,_#ffff00)]" />
                 </span>
               </li>
             </ul>
@@ -105,6 +106,7 @@ export default function Header() {
             alt="logo"
             className="headerlogo h-[90px] rounded-full mt-3 mb-10"
           />
+
           <div className="headerlistcontainerdiv mt-4">
             <ul className="headerUlpagenamecontainer flex flex-col text-center gap-16">
               <li className="text-md uppercase headerinpagelistname hover:text-green-500">
@@ -150,27 +152,27 @@ export default function Header() {
           >
             <ul className="flex flex-col justify-between my-5 items-center gap-7 text-xl">
               <li className="relative group">
-                <span className="block transition-transform transform group-hover:scale-150 group-hover:text-green-500">
+                <span className="block transition-transform transform group-hover:scale-150 hover:bg-LinkdenColor ">
                   <FaLinkedin />
                 </span>
               </li>
               <li className="relative group">
-                <span className="block transition-transform transform group-hover:scale-150 group-hover:text-green-500">
+                <span className="block  transition-transform  group-hover:scale-150  hover:bg-GitHubColor ">
                   <FaGithubSquare />
                 </span>
               </li>
               <li className="relative group">
-                <span className="block transition-transform transform group-hover:scale-150 group-hover:text-green-500">
+                <span className="block transition-transform transform group-hover:scale-150 hover:bg-FacebookColor">
                   <FaFacebookF />
                 </span>
               </li>
               <li className="relative group">
-                <span className="block transition-transform transform group-hover:scale-150 group-hover:text-green-500">
-                  <FaTwitter />
+                <span className="block transition-transform transform group-hover:scale-150 hover:bg-TwiterColor">
+                  <FaXTwitter />
                 </span>
               </li>
               <li className="relative group">
-                <span className="block transition-transform transform group-hover:scale-150 group-hover:text-green-500">
+                <span className="block transition-transform transform group-hover:scale-150 group-hover:text-white hover:bg-[linear-gradient(to_right,_#0000ff,_#ff0000,_#ffff00)] ">
                   <FaInstagramSquare />
                 </span>
               </li>
@@ -182,6 +184,7 @@ export default function Header() {
   );
 }
 
+// bg-[linear-gradient(to_right,_#0000ff,_#ff0000,_#ffff00)]
 // import React, { useState } from "react";
 // import {
 //   FaLinkedin,
