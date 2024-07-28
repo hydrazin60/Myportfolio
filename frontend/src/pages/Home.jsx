@@ -4,10 +4,10 @@ import D3cube from "../components/3Dcube";
 
 export default function Home() {
   return (
-    <div className="h-[100vh] w-[100vw] bg-black text-white pt-20">
+    <div className="h-[100vh] w-[100vw] bg-black text-white pt-20 overflow-hidden">
       <section className="w-[100vw] pt-20 px-14">
-        <div className="flex justify-between items-center relative">
-          <div className="flex flex-col">
+        <div className="flex justify-between items-center relative ">
+          <div className="flex flex-col z-10">
             <div className="my-4 text-2xl font-bold">
               <h1>Hi, I'm Jiban Pandey</h1>
             </div>
@@ -48,7 +48,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div>
+          <div className="hidden lg:block ">
             <span>
               <D3cube />
             </span>
