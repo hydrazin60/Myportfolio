@@ -1,0 +1,70 @@
+/* 3Dcube.css */
+.container {
+  perspective: 1000px;
+}
+
+.box {
+  position: relative;
+  width: 200px; /* Cube width */
+  height: 200px; /* Cube height */
+  transform-style: preserve-3d;
+  transform: rotateX(0deg) rotateY(0deg);
+  transition: transform 0.5s;
+  animation: rotate 15s infinite linear;
+  transform-origin: center;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotateX(0deg) rotateY(0deg);
+  }
+  100% {
+    transform: rotateX(360deg) rotateY(360deg);
+  }
+}
+
+.card {
+  position: absolute;
+  width: 200px; /* Same as cube width */
+  height: 200px; /* Same as cube height */
+  background: blue;
+  text-align: center;
+  line-height: 200px; /* Align text vertically */
+  font-size: 32px;
+  border: 2px solid white;
+
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+/* Additional CSS */
+.card span {
+  font-size: 80px; /* Adjust size as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#left {
+  transform: rotateY(-90deg) translateZ(100px); /* Face size is half of the width/height */
+}
+
+#right {
+  transform: rotateY(90deg) translateZ(100px); /* Face size is half of the width/height */
+}
+
+#top {
+  transform: rotateX(90deg) translateZ(100px); /* Face size is half of the width/height */
+}
+
+#bottom {
+  transform: rotateX(-90deg) translateZ(100px); /* Face size is half of the width/height */
+}
+
+#front {
+  transform: translateZ(100px); /* Face size is half of the width/height */
+}
+
+#back {
+  transform: rotateY(180deg) translateZ(100px); /* Face size is half of the width/height */
+}
