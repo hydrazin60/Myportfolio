@@ -1,0 +1,5 @@
+ 
+.about-section {
+  position: relative;
+   /* Ensure this is lower than the FrontPage z-index */
+}

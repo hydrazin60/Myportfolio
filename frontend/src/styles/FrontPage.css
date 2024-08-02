@@ -1,0 +1,96 @@
+.FrontpageCircleShadow {
+  box-shadow: -20px -20px 1000px 200px rgba(14, 164, 17, 0.5);
+}
+
+.icon-wrapper {
+  position: relative;
+  width: 300px; /* Increased size of the icon wrapper */
+  height: 300px; /* Increased size of the icon wrapper */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+.icon-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform-style: preserve-3d;
+  animation: rotate-circle 50s linear infinite; /* Adjust duration as needed */
+}
+
+/* Keyframes for rotating the entire icon container */
+@keyframes rotate-circle {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Set the size of the icons */
+.icon-container span {
+  position: absolute;
+  width: 50px; /* Adjust size as needed */
+  height: 50px; /* Adjust size as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Optional shadow effect */
+}
+
+/* Position icons in a circular path */
+.icon-container span:nth-child(1) {
+  transform: rotate(0deg) translateX(220px) rotate(0deg);
+}
+.icon-container span:nth-child(2) {
+  transform: rotate(30deg) translateX(220px) rotate(-30deg);
+}
+.icon-container span:nth-child(3) {
+  transform: rotate(60deg) translateX(220px) rotate(-60deg);
+}
+.icon-container span:nth-child(4) {
+  transform: rotate(90deg) translateX(220px) rotate(-90deg);
+}
+.icon-container span:nth-child(5) {
+  transform: rotate(120deg) translateX(220px) rotate(-120deg);
+}
+.icon-container span:nth-child(6) {
+  transform: rotate(150deg) translateX(220px) rotate(-150deg);
+}
+.icon-container span:nth-child(7) {
+  transform: rotate(180deg) translateX(220px) rotate(-180deg);
+  color: #306998;
+  background-color: #ffd43b;
+}
+.icon-container span:nth-child(8) {
+  transform: rotate(210deg) translateX(220px) rotate(-210deg);
+  color: #3ddc84;
+  background-color: #000000;
+}
+.icon-container span:nth-child(9) {
+  transform: rotate(240deg) translateX(220px) rotate(-240deg);
+  color: #ffffff;
+  background-color: #0070c9;
+}
+.icon-container span:nth-child(10) {
+  transform: rotate(270deg) translateX(220px) rotate(-270deg);
+  color: #4db33d;
+  background-color: #ffffff;
+}
+.icon-container span:nth-child(11) {
+  transform: rotate(300deg) translateX(220px) rotate(-300deg);
+  color: #ffffff;
+  background-color: #333333;
+}
+.icon-container span:nth-child(12) {
+  transform: rotate(330deg) translateX(220px) rotate(-330deg);
+  color: #ffcb2b;
+  background-color: #000000;
+}
