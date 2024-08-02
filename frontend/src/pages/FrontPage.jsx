@@ -14,21 +14,22 @@ import { SiMongodb } from "react-icons/si";
 import { FaGithubSquare } from "react-icons/fa";
 import { RiFirebaseFill } from "react-icons/ri";
 import About from "./About";
+import CustemButton from "../components/ui/CustemButton";
 
 export default function FrontPage() {
   return (
     <>
       <section className="h-[70vh] w-full bg-black text-white relative top-[5rem] flex justify-between pl-10 overflow-hidden mb-10 ">
-        <div className="flex flex-col gap-12 w-[60%] lg:mt-16">
-          <span>
+        <div className="flex flex-col gap-6 w-[60%] lg:mt-16">
+          <span className="text-2xl font-bold">
             <h2>Hi, I'm Jiban Pandey</h2>
           </span>
-          <div>
+          <span className="text-6xl font-bold text-green-500 ">
             <h2>App Developer</h2>
-            <h1>Website Developer</h1>
-          </div>
+            {/* <h1>Website Developer</h1> */}
+          </span>
           <span className="w-[80%] z-20">
-            <p>
+            <p className="text-sm font-serif">
               I am a passionate full-stack developer with a specialization in
               JavaScript technologies. My expertise includes building robust web
               applications and mobile apps using modern frameworks such as
@@ -39,8 +40,22 @@ export default function FrontPage() {
               solutions tailored to meet diverse client needs.
             </p>
           </span>
+          <span className=" ">
+            <p className="font-semibold ">
+              Need a skilled freelancer for website and app development?
+            </p>
+            <p className="text-sm font-serif">
+              I create high-quality, responsive sites and apps tailored to your
+              needs at an affordable price. <br /> Contact me for reliable and
+              professional services to bring your vision to life!
+            </p>
+          </span>
+          <span className="flex gap-10">
+            <CustemButton name="Hire Me"/>
+            <CustemButton name="download my resume"/>
+          </span>
         </div>
-        <div className="w-[40%] flex items-center justify-end  fixed -right-14 top-52  ">
+        <div className="w-[40%] flex items-center justify-end  fixed -right-12 top-52   ">
           <div className="icon-wrapper">
             <div className="icon-container">
               <span className="text-white bg-green-500 rounded-lg  text-3xl">
