@@ -5,9 +5,10 @@ import { FaAppStoreIos } from "react-icons/fa";
 import { FaGooglePlay } from "react-icons/fa6";
 import { IoLogoDesignernews } from "react-icons/io";
 import { RiRobot2Fill } from "react-icons/ri";
+ 
 export default function Experience() {
   return (
-    <div className="w-full h-[100vh] bg-slate-950 text-white flex flex-col justify-between overflow-hidden px-20">
+    <div className="w-full h-[100vh] bg-slate-950 text-white flex flex-col justify-between overflow-hidden ">
       <section className=" ">
         <span className="relative left-[45%]  text-4xl font-bold ]">
           <p className="text-green-600">Experience</p>
@@ -49,27 +50,178 @@ export default function Experience() {
           </motion.div>
         </div>
       </section>
-      <section className="w-full h-[74%] flex flex-col  gap-10 z-10">
-        <div div className="flex justify-between  text-3xl">
-          <div className=" w-72 h-40 bg-zinc-600  flex flex-col items-center justify-around ">
+      <section className="h-[70vh] flex flex-col gap-10 overflow-x-auto scrollbar-hidden">
+        <div className="flex flex-nowrap gap-10 w-full h-[80%] pl-8">
+          <div className="flex-shrink-0 h-full w-[300px] md:w-[400px] lg:w-[600px] text-white z-10">
+            <div className=" w h-40 bg-gray-800  flex flex-col items-center justify-around ">
+              <span className="text-6xl text-yellow-400">
+                <FaLaptopCode />
+              </span>
+              <p className="text-3xl ">Web Developer</p>
+            </div>
+            <div className=" h-auto w-full   border border-gray-700 bg-slate-900   flex flex-col gap-9 justify-start p-2">
+              <div className="border-white border-4 h-40 w-40 rounded-full flex justify-center items-center ">
+                <p className="">overal</p>
+              </div>
+              <div className="flex flex-col justify-between gap-5">
+                <span className="flex items-center gap-2">
+                  <input
+                    type="range"
+                    className="w-44"
+                    min="0"
+                    max="100"
+                    value="40"
+                    readOnly
+                  />
+                  <label className="w-16 text-center">40%</label>
+                </span>
+                <span className="flex items-center gap-2">
+                  <input
+                    type="range"
+                    className="w-44"
+                    min="0"
+                    max="100"
+                    value="30"
+                    readOnly
+                  />
+                  <label className="w-16 text-center">30%</label>
+                </span>
+                <span className="flex items-center gap-2">
+                  <input
+                    type="range"
+                    className="w-44"
+                    min="0"
+                    max="100"
+                    value="60"
+                    readOnly
+                  />
+                  <label className="w-16 text-center">60%</label>
+                </span>
+                <p>
+                  lsjdhd hfhdfdad dfhdalb bcnvbhvb h hfdz;jkv vbcvncn
+                  bchjvlcvhbchjvdhvg cbvncb
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="flex-shrink-0 h-full w-[300px] md:w-[400px] lg:w-[600px] text-white z-10">
+            <div className=" w h-40 bg-gray-800  flex flex-col items-center justify-around ">
+              <span className="text-6xl text-yellow-400">
+                <FaLaptopCode />
+              </span>
+              <p className="text-3xl ">App Developer</p>
+            </div>
+            <div className=" h-auto w-full   border border-gray-700 bg-slate-900   flex flex-col gap-9 justify-start p-2">
+              <div className="border-white border-4 h-40 w-40 rounded-full flex justify-center items-center ">
+                <p className="">overal</p>
+              </div>
+              <div className="flex flex-col justify-between gap-5 ">
+                <span className="flex gap-2 ">
+                  <input type="range" className="w-44" />
+                  <label>experience</label>
+                </span>
+                <span className="flex gap-2 ">
+                  <input type="range" className="w-44" /> <label>project</label>
+                </span>
+                <span className="flex gap-2 ">
+                  <input type="range" className="w-44" />
+                  <label>responsive</label>
+                </span>
+                <p>
+                  lsjdhd hfhdfdad dfhdalb bcnvbhvb h hfdz;jkv vbcvncn
+                  bchjvlcvhbchjvdhvg cbvncb
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="flex-shrink-0 h-full w-[300px] md:w-[400px] lg:w-[600px] text-white z-10">
+            <div className=" w h-40 bg-gray-800  flex flex-col items-center justify-around ">
+              <span className="text-6xl text-yellow-400">
+                <FaLaptopCode />
+              </span>
+              <p className="text-3xl ">UI/UX Designer</p>
+            </div>
+            <div className=" h-auto w-full   border border-gray-700 bg-slate-900   flex flex-col gap-9 justify-start p-2">
+              <div className="border-white border-4 h-40 w-40 rounded-full flex justify-center items-center ">
+                <p className="">overal</p>
+              </div>
+              <div className="flex flex-col justify-between gap-5 ">
+                <span className="flex gap-2 ">
+                  <input type="range" className="w-44" />
+                  <label>experience</label>
+                </span>
+                <span className="flex gap-2 ">
+                  <input type="range" className="w-44" /> <label>project</label>
+                </span>
+                <span className="flex gap-2 ">
+                  <input type="range" className="w-44" />
+                  <label>responsive</label>
+                </span>
+                <p>
+                  lsjdhd hfhdfdad dfhdalb bcnvbhvb h hfdz;jkv vbcvncn
+                  bchjvlcvhbchjvdhvg cbvncb
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="flex-shrink-0 h-full w-[300px] md:w-[400px] lg:w-[600px] text-white z-10">
+            <div className=" w h-40 bg-gray-800  flex flex-col items-center justify-around ">
+              <span className="text-6xl text-yellow-400">
+                <FaLaptopCode />
+              </span>
+              <p className="text-3xl "> Data analysis ML/AI</p>
+            </div>
+            <div className=" h-auto w-full   border border-gray-700 bg-slate-900   flex flex-col gap-9 justify-start p-2">
+              <div className="border-white border-4 h-40 w-40 rounded-full flex justify-center items-center ">
+                <p className="">overal</p>
+              </div>
+              <div className="flex flex-col justify-between gap-5 ">
+                <span className="flex gap-2 ">
+                  <input type="range" className="w-44" />
+                  <label>experience</label>
+                </span>
+                <span className="flex gap-2 ">
+                  <input type="range" className="w-44" /> <label>project</label>
+                </span>
+                <span className="flex gap-2 ">
+                  <input type="range" className="w-44" />
+                  <label>responsive</label>
+                </span>
+                <p>
+                  lsjdhd hfhdfdad dfhdalb bcnvbhvb h hfdz;jkv vbcvncn
+                  bchjvlcvhbchjvdhvg cbvncb
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+}
+
+/* 
+
+ <div div className="flex justify-between text-3xl">
+          <div className=" w-72 h-40 bg-gray-800  flex flex-col items-center justify-around ">
             <span className="text-6xl text-yellow-400">
               <FaLaptopCode />
             </span>
             <p>Web Developer</p>
           </div>
-          <div className="w-72 h-40 bg-zinc-600  flex flex-col items-center justify-around">
+          <div className="w-72 h-40 bg-gray-800  flex flex-col items-center justify-around">
             <span className="flex gap-2 text-5xl  text-yellow-400">
               <FaAppStoreIos /> & <FaGooglePlay />
             </span>
             <p>App Developer</p>
           </div>
-          <div className="w-72 h-40 bg-zinc-600  flex flex-col items-center justify-around ">
+          <div className="w-72 h-40 bg-gray-800  flex flex-col items-center justify-around ">
             <span className="text-6xl text-yellow-400">
               <IoLogoDesignernews />
             </span>
             <p> UI/UX Designer</p>
           </div>
-          <div className="w-72 h-40 bg-zinc-600 flex flex-col items-center justify-around">
+          <div className="w-72 h-40 bg-gray-800 flex flex-col items-center justify-around">
             <span className="text-6xl text-yellow-400">
               <RiRobot2Fill />
             </span>
@@ -77,8 +229,27 @@ export default function Experience() {
           </div>
         </div>
         <div className="w-full h-[70%] ">
-          <section className="flex justify-between">
-            <div className=" h-96 w-72 bg-zinc-700 flex flex-col gap-9 justify-start p-2">
+          <section className="flex justify-between  ">
+            <div className=" h-96 w-72 border border-gray-700   flex flex-col gap-9 justify-start p-2">
+              <div className="border-white border-4 h-40 w-40 rounded-full flex justify-center items-center ">
+                <p className="">overal</p>
+              </div>
+              <div className="flex flex-col justify-between gap-7 ">
+                <span className="flex gap-2 ">
+                  <input type="range" className="w-44" />
+                  <label>experience</label>
+                </span>
+                <span className="flex gap-2 ">
+                  <input type="range" className="w-44" /> <label>project</label>
+                </span>
+                <span className="flex gap-2 ">
+                  <input type="range" className="w-44" />
+                  <label>responsive</label>
+                </span>
+                <p></p>
+              </div>
+            </div>
+            <div className=" h-96 w-72  border border-gray-700 flex flex-col gap-9 justify-start p-2">
               <div className="border-white border-4 h-40 w-40 rounded-full flex justify-center items-center ">
                 <p className="">overal</p>
               </div>
@@ -97,7 +268,7 @@ export default function Experience() {
                 <p></p>
               </div>
             </div>
-            <div className=" h-96 w-72 bg-zinc-700 flex flex-col gap-9 justify-start p-2">
+            <div className=" h-96 w-72 border border-gray-700  flex flex-col gap-9 justify-start p-2">
               <div className="border-white border-4 h-40 w-40 rounded-full flex justify-center items-center ">
                 <p className="">overal</p>
               </div>
@@ -116,26 +287,7 @@ export default function Experience() {
                 <p></p>
               </div>
             </div>
-            <div className=" h-96 w-72 bg-zinc-700 flex flex-col gap-9 justify-start p-2">
-              <div className="border-white border-4 h-40 w-40 rounded-full flex justify-center items-center ">
-                <p className="">overal</p>
-              </div>
-              <div className="flex flex-col justify-between gap-7">
-                <span className="flex gap-2 ">
-                  <input type="range" className="w-44" />
-                  <label>experience</label>
-                </span>
-                <span className="flex gap-2 ">
-                  <input type="range" className="w-44" /> <label>project</label>
-                </span>
-                <span className="flex gap-2 ">
-                  <input type="range" className="w-44" />
-                  <label>responsive</label>
-                </span>
-                <p></p>
-              </div>
-            </div>
-            <div className=" h-96 w-72 bg-zinc-700 flex flex-col gap-9 justify-start p-2">
+            <div className=" h-96 w-72  border bg-slate-950 border-gray-700  flex flex-col gap-9 justify-start p-2 ">
               <div className="border-white border-4 h-40 w-40 rounded-full flex justify-center items-center ">
                 <p className="">overal</p>
               </div>
@@ -156,7 +308,5 @@ export default function Experience() {
             </div>
           </section>
         </div>
-      </section>
-    </div>
-  );
-}
+
+*/

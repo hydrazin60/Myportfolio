@@ -1,3 +1,62 @@
+import React, { useEffect } from "react";
+import "../styles/3Dcube.css";
+import { IoLogoHtml5 } from "react-icons/io5";
+import { FaReact } from "react-icons/fa";
+import { TbBrandJavascript } from "react-icons/tb";
+import { TbBrandReactNative } from "react-icons/tb";
+import { SiNextdotjs } from "react-icons/si";
+import { FaNodeJs } from "react-icons/fa";
+
+export default function D3cube() {
+  useEffect(() => {
+    const box = document.querySelector(".box");
+
+    // Ensure the animation is applied without interruptions
+    box.style.animation = "rotate 15s infinite linear";
+
+    return () => {
+      // Clean up if needed
+    };
+  }, []);
+
+  return (
+    <div className="container">
+      <div className="box">
+        <div className="card flex justify-center items-center" id="front">
+          <span className="bg-red-600 rounded-lg font-bold">
+            <IoLogoHtml5 />
+          </span>
+        </div>
+        <div className="card flex justify-center items-center" id="back">
+          <span className="text-green-600 font-bold bg-white rounded-lg">
+            <FaReact />
+          </span>
+        </div>
+        <div className="card flex justify-center items-center" id="left">
+          <span className="text-yellow-300 bg-black rounded-lg font-bold">
+            <TbBrandJavascript />
+          </span>
+        </div>
+        <div className="card flex justify-center items-center" id="right">
+          <span className="bg-blackw-500 m-2 text-green-400 rounded-lg font-bold">
+            <TbBrandReactNative />
+          </span>
+        </div>
+        <div className="card flex justify-center items-center" id="top">
+          <span className="bg-black text-white rounded-lg font-bold">
+            <SiNextdotjs />
+          </span>
+        </div>
+        <div className="card flex justify-center items-center" id="bottom">
+          <span className="text-white bg-green-500 rounded-lg font-bold">
+            <FaNodeJs />
+          </span>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 // import React, { useEffect } from "react";
 // import "../styles/3Dcube.css";
 // import { IoLogoHtml5 } from "react-icons/io5";
@@ -103,62 +162,3 @@
 //     </div>
 //   );
 // }
-
-import React, { useEffect } from "react";
-import "../styles/3Dcube.css";
-import { IoLogoHtml5 } from "react-icons/io5";
-import { FaReact } from "react-icons/fa";
-import { TbBrandJavascript } from "react-icons/tb";
-import { TbBrandReactNative } from "react-icons/tb";
-import { SiNextdotjs } from "react-icons/si";
-import { FaNodeJs } from "react-icons/fa";
-
-export default function D3cube() {
-  useEffect(() => {
-    const box = document.querySelector(".box");
-
-    // Ensure the animation is applied without interruptions
-    box.style.animation = "rotate 15s infinite linear";
-
-    return () => {
-      // Clean up if needed
-    };
-  }, []);
-
-  return (
-    <div className="container">
-      <div className="box">
-        <div className="card flex justify-center items-center" id="front">
-          <span className="bg-red-600 rounded-lg font-bold">
-            <IoLogoHtml5 />
-          </span>
-        </div>
-        <div className="card flex justify-center items-center" id="back">
-          <span className="text-green-600 font-bold bg-white rounded-lg">
-            <FaReact />
-          </span>
-        </div>
-        <div className="card flex justify-center items-center" id="left">
-          <span className="text-yellow-300 bg-black rounded-lg font-bold">
-            <TbBrandJavascript />
-          </span>
-        </div>
-        <div className="card flex justify-center items-center" id="right">
-          <span className="bg-blackw-500 m-2 text-green-400 rounded-lg font-bold">
-            <TbBrandReactNative />
-          </span>
-        </div>
-        <div className="card flex justify-center items-center" id="top">
-          <span className="bg-black text-white rounded-lg font-bold">
-            <SiNextdotjs />
-          </span>
-        </div>
-        <div className="card flex justify-center items-center" id="bottom">
-          <span className="text-white bg-green-500 rounded-lg font-bold">
-            <FaNodeJs />
-          </span>
-        </div>
-      </div>
-    </div>
-  );
-}

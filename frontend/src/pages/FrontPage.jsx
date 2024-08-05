@@ -29,7 +29,7 @@ export default function FrontPage() {
             {/* <h1>Website Developer</h1> */}
           </span>
           <span className="w-[80%] z-20">
-            <p className="text-sm font-serif">
+            <p className="text-sm ">
               I am a passionate full-stack developer with a specialization in
               JavaScript technologies. My expertise includes building robust web
               applications and mobile apps using modern frameworks such as
@@ -44,18 +44,18 @@ export default function FrontPage() {
             <p className="font-semibold ">
               Need a skilled freelancer for website and app development?
             </p>
-            <p className="text-sm font-serif">
+            <p className="text-sm ">
               I create high-quality, responsive sites and apps tailored to your
               needs at an affordable price. <br /> Contact me for reliable and
               professional services to bring your vision to life!
             </p>
           </span>
           <span className="flex gap-10">
-            <CustemButton name="Hire Me"/>
-            <CustemButton name="download my resume"/>
+            <CustemButton name="Hire Me" />
+            <CustemButton name="download my resume" />
           </span>
         </div>
-        <div className="w-[40%] flex items-center justify-end  fixed -right-12 top-52   ">
+        <div className="w-[40%] flex items-center justify-end  fixed -right-12 top-52 ">
           <div className="icon-wrapper">
             <div className="icon-container">
               <span className="text-white bg-green-500 rounded-lg  text-3xl">

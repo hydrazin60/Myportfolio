@@ -2,38 +2,63 @@
 @tailwind components;
 @tailwind utilities;
 
- 
+/* Hide scrollbar for WebKit browsers */
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}
 
-
-@font-face {
-    font-family: __eurostileFont_2eb958;
-    src: url(/_next/static/media/cf404a8e8213dae1-s.p.ttf) format("truetype");
-    font-display: swap;
-    font-weight: 400;
-    font-style: normal
+/* Hide scrollbar for Firefox */
+.scrollbar-hidden {
+  scrollbar-width: none;
 }
 
 @font-face {
-    font-family: __eurostileFont_2eb958;
-    src: url(/_next/static/media/d41fafb3b5b1c754-s.p.ttf) format("truetype");
-    font-display: swap;
-    font-weight: 500;
-    font-style: normal
+  font-family: __eurostileFont_2eb958;
+  src: url(/_next/static/media/cf404a8e8213dae1-s.p.ttf) format("truetype");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: __eurostileFont_2eb958;
-    src: url(/_next/static/media/6ae9894d4bf19020-s.p.ttf) format("truetype");
-    font-display: swap;
-    font-weight: 700;
-    font-style: normal
+  font-family: __eurostileFont_2eb958;
+  src: url(/_next/static/media/d41fafb3b5b1c754-s.p.ttf) format("truetype");
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: __eurostileFont_Fallback_2eb958;
-    src: local("Arial");
-    ascent-override:87.18%;descent-override:21.82%;line-gap-override:16.34%;size-adjust:91.75%}
+  font-family: __eurostileFont_2eb958;
+  src: url(/_next/static/media/6ae9894d4bf19020-s.p.ttf) format("truetype");
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: __eurostileFont_Fallback_2eb958;
+  src: local("Arial");
+  ascent-override: 87.18%;
+  descent-override: 21.82%;
+  line-gap-override: 16.34%;
+  size-adjust: 91.75%;
+}
 
 .__className_2eb958 {
-    font-family: __eurostileFont_2eb958,__eurostileFont_Fallback_2eb958
+  font-family: __eurostileFont_2eb958, __eurostileFont_Fallback_2eb958;
+}
+/* experience */
+/* Make the range input appear as read-only */
+input[type="range"] {
+  pointer-events: none; /* Disable interaction */
+  background: #e0e0e0; /* Optional: to make it visually distinct */
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  pointer-events: none; /* Ensure the thumb can't be dragged */
+}
+
+input[type="range"]::-moz-range-thumb {
+  pointer-events: none; /* Ensure the thumb can't be dragged */
 }
