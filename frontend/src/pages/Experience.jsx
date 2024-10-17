@@ -5,7 +5,7 @@ import { FaAppStoreIos } from "react-icons/fa";
 import { FaGooglePlay } from "react-icons/fa6";
 import { IoLogoDesignernews } from "react-icons/io";
 import { RiRobot2Fill } from "react-icons/ri";
- 
+
 export default function Experience() {
   return (
     <div className="w-full h-[100vh] bg-slate-950 text-white flex flex-col justify-between overflow-hidden ">

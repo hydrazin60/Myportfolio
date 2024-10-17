@@ -32,6 +32,15 @@ module.exports = {
     extend: {
       screens: {
         "sm-custom": "650px",
+        "ssiz-450": { max: "450px" },
+        "ssiz-650": { max: "650px" },
+        "ssiz-800": { max: "800px" },
+        "ssiz-900": { max: "900px" },
+        "ssiz-1000": { max: "1000px" },
+        "ssiz-1100": { max: "1100px" },
+        "ssiz-1200": { max: "1200px" },
+        "ssiz-1300": { max: "1300px" },
+        "ssiz-1400": { max: "1400px" },
       },
       colors: {
         LinkdenColor: "#0092de",

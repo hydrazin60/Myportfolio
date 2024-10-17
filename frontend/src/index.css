@@ -62,3 +62,9 @@ input[type="range"]::-webkit-slider-thumb {
 input[type="range"]::-moz-range-thumb {
   pointer-events: none; /* Ensure the thumb can't be dragged */
 }
+
+@media (max-width: 450px) {
+  .roundAnimation {
+    display: none;
+  }
+}
