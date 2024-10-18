@@ -6,16 +6,16 @@ export function MeteorsDemo() {
     <div className="">
       <div className="w-full   max-w-lg ">
         <div className="  shadow-xl bg-gray-900 border border-gray-800 px-1 pt-1  overflow-hidden rounded-2xl flex flex-col justify-between gap-6 p-6">
-          <div className=" flex justify-between  mt-1 w-full ">
+          <div className=" flex justify-between  ssiz-450:gap-2 mt-1 w-full ">
             <span className="    ">
               <img
                 src="jibanphoto.jpg"
                 alt="profile picture"
-                className="h-[100px] w-[100px] rounded-full object-cover overflow-hidden"
+                className="h-[100px] ssiz-450:h-[90px] ssiz-450to800:w-[90px] w-[100px] rounded-full object-cover overflow-hidden"
               />
               {/* h-24 w-24  */}
             </span>
-            <span className="bg-green-600 w-80 h-24">
+            <span className="bg-green-600 w-80   h-24">
               <img src="githubrepo.png" alt="githubrepo" />
             </span>
           </div>

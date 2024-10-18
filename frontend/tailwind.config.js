@@ -33,9 +33,9 @@ module.exports = {
       screens: {
         "sm-custom": "650px",
         "ssiz-450": { max: "450px" },
-        "ssiz-650": { max: "650px" },
-        "ssiz-800": { max: "800px" },
-        "ssiz-900": { max: "900px" },
+        "ssiz-450to800": { min: "450px", max: "800px" },
+        "ssiz-850": { max: "850px" },
+        "ssiz-850to950": { min: "850px", max: "950px" },
         "ssiz-1000": { max: "1000px" },
         "ssiz-1100": { max: "1100px" },
         "ssiz-1200": { max: "1200px" },
