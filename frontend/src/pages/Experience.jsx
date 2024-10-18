@@ -8,15 +8,16 @@ import { RiRobot2Fill } from "react-icons/ri";
 
 export default function Experience() {
   return (
-    <div className="w-full h-[100vh] bg-slate-950 text-white flex flex-col justify-between overflow-hidden ">
+    <div className="w-full h-[100vh] bg-slate-950   ssiz-450:py-10  text-white flex flex-col justify-between overflow-hidden ">
       <section className=" ">
-        <span className="relative left-[45%]  text-4xl font-bold ]">
+        <div className="relative left-[45%]   ssiz-450:left-[30%] text-4xl font-bold ]">
           <p className="text-green-600">Experience</p>
-        </span>
-        <div className="relative flex flex-col items-center ">
+        </div>
+
+        <div className="relative left-[-1%]    ssiz-450:left-[-7%] flex flex-col items-center ">
           <motion.div
             initial={{ opacity: 0.5, width: "5rem" }}
-            whileInView={{ opacity: 1, width: "10rem" }}
+            whileInView={{ opacity: 1, width: "13rem" }}
             transition={{
               delay: 0.3,
               duration: 0.8,
@@ -34,7 +35,7 @@ export default function Experience() {
           {/* Second Animated Div */}
           <motion.div
             initial={{ opacity: 0.5, width: "1rem" }}
-            whileInView={{ opacity: 0.8, width: "14rem" }}
+            whileInView={{ opacity: 0.8, width: "20rem" }}
             transition={{
               delay: 0.3,
               duration: 0.8,
@@ -50,9 +51,9 @@ export default function Experience() {
           </motion.div>
         </div>
       </section>
-      <section className="h-[70vh] flex flex-col gap-10 overflow-x-auto scrollbar-hidden">
+      <section className="h-[70vh]  flex flex-col gap-10 overflow-x-auto scrollbar-hidden">
         <div className="flex flex-nowrap gap-10 w-full h-[80%] pl-8">
-          <div className="flex-shrink-0 h-full w-[300px] md:w-[400px] lg:w-[600px] text-white z-10">
+          <div className="flex-shrink-0 h-full w-[300px] ssiz-450:w-[400px] md:w-[400px] lg:w-[600px] text-white z-10">
             <div className=" w h-40 bg-gray-800  flex flex-col items-center justify-around ">
               <span className="text-6xl text-yellow-400">
                 <FaLaptopCode />
