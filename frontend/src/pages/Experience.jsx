@@ -105,7 +105,8 @@ export default function Experience() {
               </div>
             </div>
           </div>
-          <div className="flex-shrink-0 h-full w-[300px] md:w-[400px] lg:w-[600px] text-white z-10">
+          <div className="flex-shrink-0 h-full w-[300px] ssiz-450:w-[400px] md:w-[400px] lg:w-[600px] text-white z-10">
+            {/* <div className="flex-shrink-0 h-full w-[300px] md:w-[400px] lg:w-[600px] text-white z-10"> */}
             <div className=" w h-40 bg-gray-800  flex flex-col items-center justify-around ">
               <span className="text-6xl text-yellow-400">
                 <FaLaptopCode />
@@ -135,7 +136,8 @@ export default function Experience() {
               </div>
             </div>
           </div>
-          <div className="flex-shrink-0 h-full w-[300px] md:w-[400px] lg:w-[600px] text-white z-10">
+          <div className="flex-shrink-0 h-full w-[300px] ssiz-450:w-[400px] md:w-[400px] lg:w-[600px] text-white z-10">
+            {/* <div className="flex-shrink-0 h-full w-[300px] md:w-[400px] lg:w-[600px] text-white z-10"> */}
             <div className=" w h-40 bg-gray-800  flex flex-col items-center justify-around ">
               <span className="text-6xl text-yellow-400">
                 <FaLaptopCode />
@@ -165,7 +167,8 @@ export default function Experience() {
               </div>
             </div>
           </div>
-          <div className="flex-shrink-0 h-full w-[300px] md:w-[400px] lg:w-[600px] text-white z-10">
+          <div className="flex-shrink-0 h-full w-[300px] ssiz-450:w-[400px] md:w-[400px] lg:w-[600px] text-white z-10">
+            {/* <div className="flex-shrink-0 h-full w-[300px] md:w-[400px] lg:w-[600px] text-white z-10"> */}
             <div className=" w h-40 bg-gray-800  flex flex-col items-center justify-around ">
               <span className="text-6xl text-yellow-400">
                 <FaLaptopCode />

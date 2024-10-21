@@ -8,9 +8,9 @@ import { RiRobot2Fill } from "react-icons/ri";
 
 export default function Projects() {
   return (
-    <div className="w-full h-[100vh] bg-slate-950 text-white flex flex-col justify-evenly overflow-hidden ">
+    <div className="w-full h-[100vh]   ssiz-450:pb-20 bg-slate-950 text-white flex flex-col ssiz-450:gap-52 justify-evenly overflow-hidden ">
       <section className=" ">
-        <span className="relative left-[43%]  text-4xl font-bold ]">
+        <span className="relative left-[43%] ssiz-450:left-[24%] text-4xl font-bold ]">
           <p className="text-green-600">My Projects</p>
         </span>
         <div className="relative flex flex-col items-center ">
